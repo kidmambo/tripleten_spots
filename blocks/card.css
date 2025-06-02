@@ -35,8 +35,12 @@
 
 @media screen and (max-width: 627px) {
   .card__title {
+    height: 16px;
     line-height: 100%;
     font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
   .card__image {
     height: 288px;
@@ -44,7 +48,6 @@
   .card__like-button {
     width: 20px;
     height: 18px;
-    border: 2px hidden #212121;
-    border-width: 2px;
+    padding-right: 2px;
   }
 }
