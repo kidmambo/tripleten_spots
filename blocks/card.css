@@ -8,11 +8,12 @@
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0%;
+  list-style: none;
 }
 
 .card__image {
   height: 413px;
-  width: 413px;
+  width: 100%;
   object-fit: cover;
   display: block;
   border-radius: 8px;
@@ -28,8 +29,9 @@
   background-image: url(../images/like\ icon.svg);
   width: 23px;
   height: 20px;
-  border-style: none;
+  border: 2px hidden;
   background-color: transparent;
+  background-size: cover;
   opacity: 40%;
 }
 
@@ -48,6 +50,7 @@
   .card__like-button {
     width: 20px;
     height: 18px;
-    padding-right: 2px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
