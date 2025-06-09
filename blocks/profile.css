@@ -70,8 +70,19 @@
   background-color: #212121;
   justify-content: center;
   align-items: center;
+  border-style: none;
   margin: 0 auto 20px;
   flex-shrink: 0;
+}
+
+.add__btn-text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fcf5e5;
+  padding-left: 8px;
 }
 
 @media screen and (max-width: 627px) {
