@@ -28,4 +28,4 @@ A social media website for adventurers, and expeditioners alike. Spots focuses o
 
 This website is deployed to Github Pages.
 
-- [Deployment Link] ()
+- [Deployment Link](https://kidmambo.github.io/tripleten_spots/)
