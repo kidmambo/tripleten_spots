@@ -71,8 +71,10 @@
   justify-content: center;
   align-items: center;
   border-style: none;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   flex-shrink: 0;
+  margin-top: auto;
+  margin-right: 0;
 }
 
 .add__btn-text {

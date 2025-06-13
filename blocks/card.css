@@ -42,7 +42,6 @@
     font-size: 16px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
   }
   .card__image {
     height: 288px;
